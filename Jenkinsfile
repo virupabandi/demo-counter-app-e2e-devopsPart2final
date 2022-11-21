@@ -22,6 +22,9 @@ pipeline{
                 sh 'mvn verify -DskipUnitTests'
             }
         }
+        stage('Maven Build'){
+            sh 'mvn clean install'
+        }
      }     
 }
 
