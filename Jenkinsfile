@@ -60,7 +60,7 @@ pipeline{
                         ]
                 ], 
                 credentialsId: 'nexus-auth', 
-                groupId: 'springboot', 
+                groupId: 'com.example', 
                 nexusUrl: '35.175.216.52:8081', 
                 nexusVersion: 'nexus3', 
                 protocol: 'http', 
